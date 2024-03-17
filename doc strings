@@ -1,0 +1,8 @@
+#docstrins introduction.
+
+def square(n):
+    '''takes in a number n , and return the square of n(n*n).'''
+    print('the square of ',n ,'is', n*n)
+
+square(9)
+print(square.__doc__)   
