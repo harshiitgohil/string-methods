@@ -1,0 +1,15 @@
+# f - strings
+letter = 'hey my name is {0} and i am from {1}'
+name='harshit'
+country='bharat'
+print(letter.format(name,country))
+#with f-strings
+print(f"hey my name is {name} and i am from {country}")
+
+apple_price =39.890000
+txt = f"apple price is {apple_price:.2f}"
+print(txt)
+
+print(f"{2*10}")# using f-stirngs '2*10' is a string , not a integer.
+print(type(f"{2*10}"))
+
