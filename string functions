@@ -1,0 +1,27 @@
+a="harshit gohil"
+print(len(a))
+print(a.upper() )
+print(a.lower()) 
+print(a.rstrip("gohil"))
+print(a.replace("harshit","HARI"))
+print(a.split())
+bca="bacholar of computer applications"
+print(bca.capitalize()) #capitalize a only first letter,and loweralize a all letter.
+print(bca.center(25))
+str1="i am your's for always"
+print(str1.count("a") ) #count a specific word or letter.
+str2="i am teenager"
+print(str2.endswith("er"))# if string end with specific letter = true, else = false.
+str3="sdjic located in vesu"
+print(str3.find("v"))  # find specific letter starting index number.
+print(str3.index("i")) # find the index number.
+str4="I Am Get 20 Marks"#if string is alphanumeric = true,else =false.
+print(str4.isalnum()) 
+print(str4.islower())# if whole string in lower case = true, else =false.
+print(str4.isupper())#if whole string in upper case=true, else= false.
+print(str4.isprintable()) # if string is printable = ture,else, false.
+print(str4.isspace())#if string includeing space= ture,else = false.
+print(str4.istitle())# if first letter is capitalized= true, else = false.
+print(str4.startswith("I"))#if string starts with specific letter = true, else= false.
+print(str4.swapcase())# change lower to upper, upper to lower.
+print(str4.title())# titalize a first letter.
